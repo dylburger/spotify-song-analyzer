@@ -3,7 +3,11 @@ import './App.css';
 
 class App extends Component {
   render() {
-    return <div className="App">Spotify Song Analyzer</div>;
+    return (
+      <div className="App">
+        <h1>Spotify Song Analyzer</h1>
+      </div>
+    );
   }
 }
 
